@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer{
+    background-color: #222;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    gap: 16px;
+}
+
+.card{
+    border: 1px solid #ddd;
+    padding: 16px;
+    width: 150px;
+    border-radius: 8px;
+}
