@@ -52,7 +52,7 @@ React 컴포넌트 구조와 API 연동까지 단계적으로 학습한다.
 | Day | 날짜 | 내용 | 링크 |
 |----|----|----|----|
 | Day 1 | 01.21 | 웹 개발 기본 구조 이해 (HTML/CSS/JS) | [바로가기](./day1) |
-| Day 2 | 01.22 | JavaScript 이벤트 & DOM 조작 | 예정 |
+| Day 2 | 01.22 | JavaScript 이벤트 & DOM 조작 | [바로가기](./day2) |
 | Day 3 | 01.23 | JavaScript 데이터 흐름 & 상태 개념 | 예정 |
 | Day 4 | 01.24 | JavaScript 배열/객체 활용 심화 | 예정 |
 | Day 5 | 01.25 | JavaScript 미니 실습 (카드/리스트) | 예정 |
