@@ -19,13 +19,15 @@
 
 ## 📁 파일 구성
 
+
+```
 day2/
 ┣ index.html
 ┣ script.js
 ┣ index2.html
 ┣ script2.js
 ┗ README.md
-
+```
 
 ---
 
