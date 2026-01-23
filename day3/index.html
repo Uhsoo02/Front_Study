@@ -1,0 +1,27 @@
+<!-- 잘못된 코드의 예제 -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="number">0</h1>
+    <button id="btn">증가</button>
+
+    <script>
+      let count = 0;
+
+      document.getElementById("btn").addEventListener("click", function () {
+        count++;
+        console.log(count);
+      });
+    </script>
+  </body>
+</html>
+
+
+<!-- 나의 해석
+우선 button을 증가 버튼을 만든거 같고 js가 따로 있는건 아니지만
+script안에서 count라는 변수는 현재 0 으로 지정해두고 document를 통해 btn을 DOM연결해서 클릭하면
+count ++을 통해 값을 증가 시키고 count 로그를 console.log를 통해 볼 수 있게끔 만들었네
+하지만 count는 증가시킬 수 있지만 우리가 증가시키고자 하는 number의 수는 오르지 않는 이유는
+number와 연결되는 DOM이 없는걸 볼 수 있어 그렇기에 수가 오르지 않는 코드가 되는거지
+-->

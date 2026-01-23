@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 id = "number">0</h1>
+        <button id = "btn">증가</button>
+
+        <script>
+            let count = 0;
+
+            document.getElementById("btn").addEventListener('click', function(){
+                count ++;
+                document.getElementById("number").innerText = count;
+                console.log(count);
+            });
+        </script>
+    </body>
+</html>
+
+<!-- 잘못된 예제를 정확하게 작동하게끔 만든 코드 -->

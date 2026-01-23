@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 id = "number">0</h1>
+        <button id = "btn+1">1 증가</button>
+        <button id = "btn+10">10 증가</button>
+
+        <script>
+
+            let count = 0;
+
+            document.getElementById("btn+1").addEventListener('click', function(){
+                count += 1;
+                document.getElementById("number").innerText = count;
+
+                console.log(count);
+            });
+
+            document.getElementById("btn+10").addEventListener('click', function(){
+                count += 10;
+                document.getElementById('number').innerText = count;
+
+                console.log(count);
+            })
+
+        </script>
+    </body>
+</html>
+
+
+<!-- +1씩 증가와 +10씩 증가를 시키는 버튼을 만들어보는 실습 -->
