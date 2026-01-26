@@ -1,0 +1,21 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card.active {
+    background-color: #0a88db;
+    color: white;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
